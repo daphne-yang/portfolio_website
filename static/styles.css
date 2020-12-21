@@ -1,0 +1,67 @@
+/* CSS Document */
+
+/* Site Color Palette*/
+
+/* From Background: #30481C (dark green), #BFDA79 (yellow green), #7DB13E (wasabi green), #8ABF98 (mint green) */
+
+.grid-light-bg {
+	background-color: #f8f9fa !important;
+}
+
+.grid-dark-bg {
+	background-color: #30481C !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-custom-dark {
+  color: #30481C !important;
+}
+
+/* button colors */
+.btn-outline-custom-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn-outline-custom-light:hover {
+  color: #30481C;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-custom-dark {
+  color: #30481C;
+  border-color: #30481C;
+}
+.btn-outline-custom-dark:hover {
+  color: #fff;
+  background-color: #30481C;
+  border-color: #30481C;
+}
+
+.btn-fill-custom-dark-inverse {
+  color: #fff;
+background-color:#30481C;
+  border-color: #fff;
+}
+.btn-fill-custom-dark-inverse:hover {
+  color: #30481C;
+  background-color: #fff;
+  border-color: #30481C;
+}
+
+.btn-fill-custom-wasabi-inverse {
+  color: #fff;
+background-color:#7DB13E;
+  border-color: #fff;
+}
+.btn-fill-custom-wasabi-inverse:hover {
+  color: #7DB13E;
+  background-color: #fff;
+  border-color: #7DB13E;
+}
+/* 
