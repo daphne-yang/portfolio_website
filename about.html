@@ -7,9 +7,9 @@
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<!-- 2. Popper, 3. Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<!-- 2. Popper, 3. Bootstrap JS --> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> 
 
 <!--Personal stylesheet -->
 <link href="../static/styles.css" rel="stylesheet">
@@ -50,49 +50,53 @@
 <div class="position-relative px-3 py-lg-5 text-white" 
 	   style="background: #ffffff url('../static/img/light-background-2.jpg') center no-repeat;background-size:cover;filter: contrast(1.2)">
   <div class="row-cols-md-auto col px-lg-5 py-lg-5 mx-3 my-5">
-    <h1 class="display-3 fw-normal">Daphne S Yang</h1>
-    <p class="lead fw-normal">Welcome to my data science portfolio!</p>
+    <h1 class="display-3 fw-normal">About Me</h1>
+    <p class="lead fw-normal">subtext</p>
   </div>
 </div>
-<!-- End: Background Image Landing-->
+<!-- End: Background Image Landing--> 
 
-<!-- Grid for Latest Work -->
-<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-  <div class="container-fluid">
-    <div class="row">
-		<!-- Latest Projects -->
-      <div class="col grid-dark-bg p-4">
-        <h1 class="text-center text-white my-4">Latest Project</h1>
-		  <!-- Latest Project Card -->
-		  <div class="card">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-fill-custom-wasabi-inverse center">Go somewhere</a>
-  </div>
-</div>
-        <div class="container-fluid center m-4"> <a class="btn btn-outline-custom-light" href="portfolio.html">All Projects</a> </div>
-      </div>
-		<!-- Latest Blog Posts -->
-      <div class="col grid-light-bg p-4">
-        <h1 class="text-center text-custom-dark my-4">Latest Blog Post</h1>
-		   <!-- Latest Project Card -->
-		  <div class="card">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-fill-custom-wasabi-inverse center">Go somewhere</a>
-  </div>
-</div>
-        <div class="container-fluid center"> <a class="btn btn-outline-custom-dark my-4" href="blog-posts.html">See This and All Posts</a> </div>
+<!-- About Me -->
+<div class="container-fluid">
+  <div class="d-md-flex flex-md-equal w-100 my-md-5 ps-md-3">
+    <div class="container-fluid"> 
+      <!-- end start tag formatting; grid below -->
+      <div class="row row-cols-2"> 
+        <!-- First Row -->
+        <div class="col-5 p-2 m-4"> <img src="../static/img/IMG_5134.JPG" alt="photo of daphne" style="border-radius: 50%" class="img-fluid img-thumbnail"> </div>
+        <div class="col-6 p-2 grid-light-grey-bg">
+          <div class="row row-cols-1 m-3">
+            <h1 class="center display-5 fw-bold text-custom-dark"> Daphne S Yang</h1>
+            <p class="lead fw-normal mt-5">Hi! My name is Daphne and I am a current 5th year Master Candidate of Information and Data Science at the University of California, Berkeley. I graduated in May 2020 with a Bachelor Degree in Public Health and studied with an emphasis on Health Policy and Management. I designed and created this portfolio to share projects that I have made. In my free time, I enjoy playing golf, baking, hiking, and biking.</p>
+            <h2 class="mt-5 text-custom-dark text-align-center">Thank you for visiting my portfolio and check out more details of my data science journey below!</h2>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
+<!-- Data Science Journey Timeline-->
+<div class="container-fluid grid-dark-bg">
+	<h1 class="display-4 text-white py-3 center fw-bold">Daphne's Data Science Path
+	</h1>
+	</div>
+<div class="container-fluid grid-dark-bg">
+	<div class="timeline">
+		<div class="container-custom right">
+			<div class="content">
+				<h2 class="fw-bold">2020</h2>
+			</div>
+		</div>
+		<div class="container-custom left">
+			<div class="content">
+				<h2 class="fw-bold">2018</h2>
+				
+			</div>
+		</div>
+	</div>
+</div>
 
-<!-- End Grid -->
+<!-- Footer -->
 <hr>
 <footer class="small text-center text-muted">
   <p class="copyright">Copyright &copy; 2021 | Daphne S Yang</p>
