@@ -61,6 +61,15 @@ text-align: center;
   border-color: #7DB13E;
 }
 
+.nav-link:hover {
+  background-color: #D7EECA !important;
+}
+
+.nav-link:active{
+	background-color: #2e461e !important;
+	color: white;
+}
+
 /* Timeline from W3 Schools(changed container names) https://www.w3schools.com/howto/howto_css_timeline.asp*/
 
 /* The actual timeline (the vertical ruler) */
