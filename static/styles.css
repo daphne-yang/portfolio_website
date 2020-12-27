@@ -70,6 +70,14 @@ text-align: center;
 	color: white;
 }
 
+/*CSS Elements for Works in Progress*/
+
+.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Timeline from W3 Schools(changed container names) https://www.w3schools.com/howto/howto_css_timeline.asp*/
 
 /* The actual timeline (the vertical ruler) */
