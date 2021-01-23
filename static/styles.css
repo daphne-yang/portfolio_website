@@ -70,6 +70,14 @@ text-align: center;
 	color: white;
 }
 
+/*CSS Elements for Uniform Portfolio Cards*/
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
 /*CSS Elements for Works in Progress*/
 
 .disabled {
