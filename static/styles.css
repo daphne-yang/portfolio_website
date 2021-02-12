@@ -60,7 +60,16 @@ text-align: center;
   background-color: #fff;
   border-color: #7DB13E;
 }
-
+.btn-fill-custom-dark-inverse-grey {
+  color: #fff;
+  background-color: #2e461e;
+  border-color: #fff;
+}
+.btn-fill-custom-dark-inverse-grey:hover {
+  color: #2e461e;
+  background-color: rgb(160, 160, 160);
+  border-color: #2e461eC;
+}
 .nav-link:hover {
   background-color: #D7EECA !important;
 }
@@ -70,16 +79,12 @@ text-align: center;
 	color: white;
 }
 
-/*CSS Elements for Uniform Portfolio Cards*/
+/*CSS Elements for Uniform Portfolio/Blog Cards*/
 
 .card-img-top {
     width: 100%;
     height: 20vw;
     object-fit: cover;
-}
-
-.img-links {
-	width
 }
 
 /*CSS Elements for Works in Progress*/
