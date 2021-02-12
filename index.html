@@ -1,104 +1,226 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<!-- 2. Popper, 3. Bootstrap JS --> 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> 
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- 2. Popper, 3. Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
 
-<!--Personal stylesheet -->
-<link href="static/styles.css" rel="stylesheet">
-<title>Daphne S Yang | Data Science Portfolio</title>
-<!--Personal Favicon-->
-<link rel="icon" type="image/png" href="../static/img/initials-green.png">
-</head>
+    <!--Personal stylesheet -->
+    <link href="static/styles.css" rel="stylesheet" />
+    <title>Daphne S Yang | Data Science Portfolio</title>
+    <!--Personal Favicon-->
+    <link rel="icon" type="image/png" href="../static/img/initials-green.png" />
+  </head>
 
-<body class="bg-light">
-
-<!-- Website Menu Navbar Start-->
-<div class="container-fluid">
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid"> <a class="navbar-brand text-custom-dark" href="index.html"> <img src="static/img/initials-green.png" height="25" alt="initials logo"> Daphne S Yang</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="portfolio.html">Portfolio</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="blog-posts.html">Blog Posts</a> </li>
-        </ul>
-        <!--Socials External Links-->
-		  <span class="nav-item">
-        <ul class="navbar-nav me-1 mb-2 mb-md-0">
-          <!--linkedin-->
-          <li class="nav-item"> <a class="nav-link" href="https://www.linkedin.com/in/daphne-yang/" target="_blank"> <img src="static/img/linkedin (3).svg" alt="linkedin" height="30"> </a> </li>
-          <!--github-->
-          <li class="nav-item"> <a class="nav-link" href="https://github.com/daphne-yang" target="_blank"> <img src="static/img/github (1).svg" alt="github" height="30"> </a> </li>
-          <!--mailto-->
-          <li class="nav-item"> <a class="nav-link" href="mailto:daphne.yang@berkeley.edu" target="_blank"> <img src="static/img/send.svg" alt="mailto:" height="30"> </a> </li>
-        </ul>
-			  </span>
-        <!--Socials External Links End--> 
-      </div>
-    </div>
-  </nav>
-</div>
-<!-- End Navbar --> 
-
-<!-- Background Image Landing -->
-<div class="container-fluid p-0">
-  <div class="position-relative px-3 py-sm-5 text-white" 
-	   style="background: #ffffff url('static/img/light-background-2.jpg') center no-repeat;background-size:cover;filter: contrast(1.2); height: 300;">
-    <div class="row-cols-md-auto col px-lg-5 py-lg-5 mx-3 my-5">
-      <h1 class="display-3 fw-normal">Daphne S Yang</h1>
-      <p class="lead fw-normal">Welcome to my data science portfolio!</p>
-    </div>
-  </div>
-</div>
-<!-- End: Background Image Landing--> 
-
-<!-- Grid for Latest Work -->
-<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-  <div class="container-fluid">
-    <div class="row"> 
-      <!-- Latest Projects -->
-      <div class="col grid-dark-bg p-4">
-        <h1 class="text-center text-white my-4">Latest Project</h1>
-        <!-- Latest Project Card -->
-        <div class="card"> <img src="static/img/portfolio-website.png" class="card-img-top" alt="latest project screen capture">
-          <div class="card-body">
-            <h5 class="card-title">Making a Portfolio Website</h5>
-            <p class="card-text">To prepare for my Spring 2021 Data Visualization Class, I decided to create my own static website using HTML, CSS, and Bootstrap. The result is the website that you see here. This was my first introduction to HTML and CSS and this website will continously be updated as I complete more projects.</p>
-			  <p><strong>Next Steps/In Progress:</strong> Integrating PostgreSQL as a content management system to keep track of all of my projects.</p>
-            <a href="https://github.com/daphne-yang/portfolio_website" class="btn btn-fill-custom-wasabi-inverse center" target="_blank">Code</a> </div>
+  <body class="bg-light">
+    <!-- Website Menu Navbar Start-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-custom-dark" href="index.html">
+            <img
+              src="static/img/initials-green.png"
+              height="25"
+              alt="initials logo"
+            />
+            Daphne S Yang</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog-posts.html">Blog Posts</a>
+              </li>
+            </ul>
+            <!--Socials External Links-->
+            <span class="nav-item">
+              <ul class="navbar-nav me-1 mb-2 mb-md-0">
+                <!--linkedin-->
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.linkedin.com/in/daphne-yang/"
+                    target="_blank"
+                  >
+                    <img
+                      src="static/img/linkedin (3).svg"
+                      alt="linkedin"
+                      height="30"
+                    />
+                  </a>
+                </li>
+                <!--github-->
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://github.com/daphne-yang"
+                    target="_blank"
+                  >
+                    <img
+                      src="static/img/github (1).svg"
+                      alt="github"
+                      height="30"
+                    />
+                  </a>
+                </li>
+                <!--mailto-->
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="mailto:daphne.yang@berkeley.edu"
+                    target="_blank"
+                  >
+                    <img src="static/img/send.svg" alt="mailto:" height="30" />
+                  </a>
+                </li>
+              </ul>
+            </span>
+            <!--Socials External Links End-->
+          </div>
         </div>
-        <div class="container-fluid center m-4"> <a class="btn btn-outline-custom-light" href="portfolio.html">All Projects</a> </div>
-      </div>
-      <!-- Latest Blog Posts -->
-      <div class="col grid-light-bg p-4">
-        <h1 class="text-center text-custom-dark my-4">Latest Blog Post</h1>
-        <!-- Latest Project Card -->
-        <div class="card"> <img src="static/img/covid-testing.png" class="card-img-top" alt="coming soon">
-          <div class="card-body">
-            <h5 class="card-title">What Can We Learn From COVID19 Testing Site Reviews?</h5>
-            <p class="card-text">As the pandemic closes in on a full year of lockdown and shelter in place, I am interested in how American's across the country are experiencing COVID19 testing differently. A deeper analysis into the reviews helps to shed some light on some trends and interesting insights.</p>
-            <a href="https://medium.com/basil-labs/what-can-we-learn-from-looking-at-covid-19-testing-reviews-d35553019ec3" class="btn btn-fill-custom-wasabi-inverse center" target="_blank">Medium Article</a>
-</div>
+      </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Background Image Landing -->
+    <div class="container-fluid p-0">
+      <div
+        class="position-relative px-3 py-sm-5 text-white"
+        style="
+          background: #ffffff url('static/img/light-background-2.jpg') center
+            no-repeat;
+          background-size: cover;
+          filter: contrast(1.2);
+          height: 300;
+        "
+      >
+        <div class="row-cols-md-auto col px-lg-5 py-lg-5 mx-3 my-5">
+          <h1 class="display-3 fw-normal">Daphne S Yang</h1>
+          <p class="lead fw-normal">Welcome to my data science portfolio!</p>
         </div>
-        <div class="container-fluid center"> <a class="btn btn-outline-custom-dark my-4" href="blog-posts.html">See This and All Posts</a> </div>
       </div>
     </div>
-  </div>
-</div>
+    <!-- End: Background Image Landing-->
 
-<!-- End Grid -->
-<hr>
-<footer class="small text-center text-muted">
-  <p class="copyright">Copyright &copy; 2021 | Daphne S Yang</p>
-</footer>
-</body>
+    <!-- Grid for Latest Work -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Latest Projects -->
+          <div class="col grid-dark-bg p-4">
+            <h1 class="text-center text-white my-4">Latest Project</h1>
+            <!-- Latest Project Card -->
+            <div class="card">
+              <img
+                src="static/img/portfolio-website.png"
+                class="card-img-top"
+                alt="latest project screen capture"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Making a Portfolio Website</h5>
+                <p class="card-text">
+                  To prepare for my Spring 2021 Data Visualization Class, I
+                  decided to create my own static website using HTML, CSS, and
+                  Bootstrap. The result is the website that you see here. This
+                  was my first introduction to HTML and CSS and this website
+                  will continously be updated as I complete more projects.
+                </p>
+                <p>
+                  <strong>Next Steps/In Progress:</strong> Integrating
+                  PostgreSQL as a content management system to keep track of all
+                  of my projects.
+                </p>
+                <a
+                  href="https://github.com/daphne-yang/portfolio_website"
+                  class="btn btn-fill-custom-wasabi-inverse center"
+                  target="_blank"
+                  >Code</a
+                >
+              </div>
+            </div>
+            <div class="container-fluid center m-4">
+              <a class="btn btn-outline-custom-light" href="portfolio.html"
+                >All Projects</a
+              >
+            </div>
+          </div>
+          <!-- Latest Blog Posts -->
+          <div class="col grid-light-bg p-4">
+            <h1 class="text-center text-custom-dark my-4">Latest Blog Post</h1>
+            <!-- Latest Project Card -->
+            <div class="card">
+              <img
+                src="static/img/covid-testing.png"
+                class="card-img-top"
+                alt="coming soon"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  What’s in the News: Visualizing Mainstream News Headlines
+                </h5>
+                <p class="card-text">
+                  A comparative analysis of over 6,000 headline articles to
+                  understand and visualize mainstream media’s coverage of
+                  President Biden and former President Trump during the
+                  inauguration and the following days.
+                </p>
+                <a
+                  href="https://medium.com/basil-labs/whats-in-the-news-visualizing-mainstream-news-headlines-9a0475db5111"
+                  class="btn btn-fill-custom-wasabi-inverse center"
+                  target="_blank"
+                  >Medium Article</a
+                >
+              </div>
+            </div>
+            <div class="container-fluid center">
+              <a class="btn btn-outline-custom-dark my-4" href="blog-posts.html"
+                >See This and All Posts</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Grid -->
+    <hr />
+    <footer class="small text-center text-muted">
+      <p class="copyright">Copyright &copy; 2021 | Daphne S Yang</p>
+    </footer>
+  </body>
 </html>
