@@ -49,7 +49,7 @@
 .btn-fill-custom-dark-inverse:hover {
     color: #2e461e;
     background-color: #fff;
-    border-color: #2e461eC;
+    border-color: #2e461e;
 }
 .btn-fill-custom-wasabi-inverse {
     color: #fff;
@@ -69,7 +69,7 @@
 .btn-fill-custom-dark-inverse-grey:hover {
     color: #2e461e;
     background-color: rgb(160, 160, 160);
-    border-color: #2e461eC;
+    border-color: #2e461e;
 }
 .nav-link:hover {
     background-color: #d7eeca !important;

@@ -1,116 +1,418 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<!-- 2. Popper, 3. Bootstrap JS --> 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> 
-<!--Personal stylesheet -->
-<link href="static/styles.css" rel="stylesheet">
-<title>Daphne S Yang | Data Science Portfolio</title>
-<!--Personal Favicon-->
-<link rel="icon" type="image/png" href="static/img/initials-green.png">
-</head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+        <!-- 2. Popper, 3. Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+            integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+            crossorigin="anonymous"
+        ></script>
+        <!--Personal stylesheet -->
+        <link href="static/styles.css" rel="stylesheet" />
+        <title>Daphne S Yang | Data Science Portfolio</title>
+        <!--Personal Favicon-->
+        <link
+            rel="icon"
+            type="image/png"
+            href="static/img/initials-green.png"
+        />
+    </head>
 
-<body class="bg-light">
-<!-- Website Menu Navbar Start-->
-<div class="container-fluid">
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid"> <a class="navbar-brand text-custom-dark" href="index.html"> <img src="static/img/initials-green.png" height="25" alt="initials logo"> Daphne S Yang</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="portfolio.html">Portfolio</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="blog-posts.html">Blog Posts</a> </li>
-        </ul>
-        <!--Socials External Links--> 
-        <span class="nav-item">
-        <ul class="navbar-nav me-1 mb-2 mb-md-0">
-          <!--linkedin-->
-          <li class="nav-item"> <a class="nav-link" href="https://www.linkedin.com/in/daphne-yang/" target="_blank"> <img src="static/img/linkedin (3).svg" alt="linkedin" height="30"> </a> </li>
-          <!--github-->
-          <li class="nav-item"> <a class="nav-link" href="https://github.com/daphne-yang" target="_blank"> <img src="static/img/github (1).svg" alt="github" height="30"> </a> </li>
-          <!--mailto-->
-          <li class="nav-item"> <a class="nav-link" href="mailto:daphne.yang@berkeley.edu" target="_blank"> <img src="static/img/send.svg" alt="mailto:" height="30"> </a> </li>
-        </ul>
-        </span> 
-        <!--Socials External Links End--> 
-      </div>
-    </div>
-  </nav>
-</div>
-<!-- End Navbar --> 
+    <body class="bg-light">
+        <!-- Website Menu Navbar Start-->
+        <div class="container-fluid">
+            <nav
+                class="navbar navbar-expand-md navbar-light bg-light sticky-top"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand text-custom-dark" href="index.html">
+                        <img
+                            src="static/img/initials-green.png"
+                            height="25"
+                            alt="initials logo"
+                        />
+                        Daphne S Yang</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    ></button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html"
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog-posts.html"
+                                    >Blog Posts</a
+                                >
+                            </li>
+                        </ul>
+                        <!--Socials External Links-->
+                        <span class="nav-item">
+                            <ul class="navbar-nav me-1 mb-2 mb-md-0">
+                                <!--linkedin-->
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        href="https://www.linkedin.com/in/daphne-yang/"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="static/img/linkedin (3).svg"
+                                            alt="linkedin"
+                                            height="30"
+                                        />
+                                    </a>
+                                </li>
+                                <!--github-->
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        href="https://github.com/daphne-yang"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="static/img/github (1).svg"
+                                            alt="github"
+                                            height="30"
+                                        />
+                                    </a>
+                                </li>
+                                <!--mailto-->
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        href="mailto:daphne.yang@berkeley.edu"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="static/img/send.svg"
+                                            alt="mailto:"
+                                            height="30"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
+                        <!--Socials External Links End-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- End Navbar -->
 
-<!-- Background Image Landing -->
-<div class="container-fluid p-0">
-  <div class="position-relative px-3 py-sm-5 text-white" 
-	   style="background: #ffffff url('static/img/light-background-2.jpg') center no-repeat;background-size:cover;filter: contrast(1.2); height: 300;">
-    <div class="row-cols-md-auto col px-lg-5 py-lg-5 mx-3 my-5">
-      <h1 class="display-3 fw-normal">Daphne S Yang</h1>
-      <p class="lead fw-normal">Welcome to my data science portfolio!</p>
-    </div>
-  </div>
-</div>
-<!-- End: Background Image Landing--> 
-<!-- Grid for Data Science Projects, latest to newest -->
-<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-  <div class="container-fluid"> 
-    <!-- end start tag formatting; grid below -->
-    <div class="row row-cols-3"> 
-      <!-- First Row -->
-      
-      <div class="col p-3">
-        <div class="card"> <img src="static/img/portfolio-website.png" class="card-img-top img-fluid" alt="screen capture portfolio">
-          <div class="card-body">
-            <h5 class="card-title">Data Science Portfolio</h5>
-            <p class="card-text">To better learn HTML and CSS in preparation for my Spring 2021 Data Visualization Class, I created my own portfolio website built upon a simple <a href = "https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap</a> template and drawing inspiration from other portfolios published in Medium blog posts. </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item center">HTML, CSS, Bootstrap, Adobe Dreamweaver</li>
-          </ul>
-          <div class="card-body center"><a href="https://github.com/daphne-yang/portfolio_website" class="btn btn-fill-custom-wasabi-inverse mx-2">Github</a> </div>
+        <!-- Background Image Landing -->
+        <div class="container-fluid p-0">
+            <div
+                class="position-relative px-3 py-sm-5 text-white"
+                style="
+                    background: #ffffff url('static/img/light-background-2.jpg')
+                        center no-repeat;
+                    background-size: cover;
+                    filter: contrast(1.2);
+                    height: 300;
+                "
+            >
+                <div class="row-cols-md-auto col px-lg-5 py-lg-5 mx-3 my-5">
+                    <h1 class="display-3 fw-normal">Daphne S Yang</h1>
+                    <p class="lead fw-normal">
+                        Welcome to my data science portfolio!
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col p-3">
-        <div class="card"> <img src="static/img/ed_tech.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Lambda Architectrue Using Spark and HDFS: Tracking User Activity</h5>
-            <p class="card-text">In this project for my Data Engineering class, I am assuming the role at an ed tech firm. I've created a service that delivers assessments, and now lots of different customers (e.g., Pearson) want to publish their assessments on it. I need to get ready for data scientists who work for these customers to run queries on the data.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item center">Python, Docker, Kafka, Spark, HDFS</li>
-          </ul>
-          <div class="card-body center"> <!--<a href="#" class="btn btn-fill-custom-wasabi-inverse mx-2">Report</a>--> <a href="https://github.com/daphne-yang/data-science-portfolio/tree/main/Lambda_Architecture_Using_Spark_and_HDFS" class="btn btn-fill-custom-wasabi-inverse mx-2">Github</a> </div>
+        <!-- End: Background Image Landing-->
+
+        <!-- Grid for Data Science Projects, latest to newest -->
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="container-fluid">
+                <div class="row row-cols-3">
+                    <!-- First Row -->
+
+                    <div class="col p-3">
+                        <div class="card">
+                            <img
+                                src="static/img/inv_mds.png"
+                                class="card-img-top img-fluid"
+                                alt="screen capture portfolio"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Inverse Hierarchical Multi-Document
+                                    Summarization
+                                </h5>
+                                <p class="card-text">
+                                    In this project, a team of 3 UC Berkeley
+                                    MIDS students developed 2 novel model
+                                    pipelines that perform inverse hierarchical
+                                    multi-document summarization (MDS). We
+                                    define inverse hierarchical multi-document
+                                    summarization as the creation of a
+                                    contextual summary that provides background
+                                    information about any given news article
+                                    text. This is the opposite of current
+                                    hierarchical multidocument summarization,
+                                    which provides a "drill down" approach for
+                                    Multi-Document Summarization.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item center">
+                                    Python, Tensorflow, Webscraping, APIs
+                                </li>
+                            </ul>
+                            <div class="card-body center">
+                                <a
+                                    href="static/reports/Inverse_Hierarchical_MutiDocument_Summarization.pdf"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Report</a
+                                >
+                                <a
+                                    href="https://github.com/brandonscolieri/Inverse-Hierarchical-Multi-Document-Summarization"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Github</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-3">
+                        <div class="card">
+                            <img
+                                src="static/img/music_vis.png"
+                                class="card-img-top"
+                                alt="music visualization website"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Exploring Music Through Visualizations
+                                </h5>
+                                <p class="card-text">
+                                    In this project, I scraped data of Global
+                                    Top 200 Songs from
+                                    <a href="https://spotifycharts.com/"
+                                        >SpotifyCharts.com</a
+                                    >
+                                    to create visuals with my team to help
+                                    audiences explore music popularity,
+                                    qualities, and genres over time. Then, I
+                                    worked with my group of 3 other UC Berkeley
+                                    5th Year MIDS team members to create a web
+                                    app (hosted on vercel) for public audiences
+                                    to view our visualizations.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item center">
+                                    Python, Webscraping, Tableau, Javascript,
+                                    HTML, CSS
+                                </li>
+                            </ul>
+                            <div class="card-body center">
+                                <a
+                                    href="https://spotify-visualizations.vercel.app/index.html"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Website Demo</a
+                                >
+                                <a
+                                    href="https://github.com/daphne-yang/data-science-portfolio/tree/main/Lambda_Architecture_Using_Spark_and_HDFS"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Github</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-3">
+                        <div class="card">
+                            <img
+                                src="static/img/portfolio-website.png"
+                                class="card-img-top img-fluid"
+                                alt="screen capture portfolio"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Data Science Portfolio
+                                </h5>
+                                <p class="card-text">
+                                    To better learn HTML and CSS in preparation
+                                    for my Spring 2021 Data Visualization Class,
+                                    I created my own portfolio website built
+                                    upon a simple
+                                    <a
+                                        href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                                        >Bootstrap</a
+                                    >
+                                    template and drawing inspiration from other
+                                    portfolios published in Medium blog posts.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item center">
+                                    HTML, CSS, Bootstrap, Adobe Dreamweaver
+                                </li>
+                            </ul>
+                            <div class="card-body center">
+                                <a
+                                    href="https://github.com/daphne-yang/portfolio_website"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Github</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end start tag formatting; grid below -->
+                <div class="row row-cols-3">
+                    <!-- Second Row -->
+
+                    <!-- <div class="col p-3">
+                        <div class="card">
+                            <img
+                                src="static/img/portfolio-website.png"
+                                class="card-img-top img-fluid"
+                                alt="screen capture portfolio"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Data Science Portfolio
+                                </h5>
+                                <p class="card-text">
+                                    To better learn HTML and CSS in preparation
+                                    for my Spring 2021 Data Visualization Class,
+                                    I created my own portfolio website built
+                                    upon a simple
+                                    <a
+                                        href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                                        >Bootstrap</a
+                                    >
+                                    template and drawing inspiration from other
+                                    portfolios published in Medium blog posts.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item center">
+                                    HTML, CSS, Bootstrap, Adobe Dreamweaver
+                                </li>
+                            </ul>
+                            <div class="card-body center">
+                                <a
+                                    href="https://github.com/daphne-yang/portfolio_website"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Github</a
+                                >
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col p-3">
+                        <div class="card">
+                            <img
+                                src="static/img/ed_tech.jpg"
+                                class="card-img-top"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Lambda Architectrue Using Spark and HDFS:
+                                    Tracking User Activity
+                                </h5>
+                                <p class="card-text">
+                                    In this project for my Data Engineering
+                                    class, I am assuming the role at an ed tech
+                                    firm. I've created a service that delivers
+                                    assessments, and now lots of different
+                                    customers (e.g., Pearson) want to publish
+                                    their assessments on it. I need to get ready
+                                    for data scientists who work for these
+                                    customers to run queries on the data.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item center">
+                                    Python, Docker, Kafka, Spark, HDFS
+                                </li>
+                            </ul>
+                            <div class="card-body center">
+                                <!--<a href="#" class="btn btn-fill-custom-wasabi-inverse mx-2">Report</a>-->
+                                <a
+                                    href="https://github.com/daphne-yang/data-science-portfolio/tree/main/Lambda_Architecture_Using_Spark_and_HDFS"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Github</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-3">
+                        <div class="card">
+                            <img
+                                src="static/img/lyft_bikes.jpg"
+                                class="card-img-top img-fluid"
+                                alt="bikes"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Lyft Bay Wheels Ridership Analysis
+                                </h5>
+                                <p class="card-text">
+                                    For this Data Engineering class project, I
+                                    conducted an analysis on Lyft Bay Wheels
+                                    ridership and and utilized Google Cloud
+                                    Platform and Big Query to provide
+                                    recommendations to increase ridership.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item center">
+                                    SQL, Google Cloud Platform, Google Big
+                                    Query, Jupyter Notebook
+                                </li>
+                            </ul>
+                            <div class="card-body center">
+                                <!--<a href="#" class="btn btn-fill-custom-wasabi-inverse mx-2">Report</a>-->
+                                <a
+                                    href="https://github.com/daphne-yang/data-science-portfolio/tree/main/Big_Data_Analytics_with_Google_Big_Query"
+                                    class="btn btn-fill-custom-wasabi-inverse mx-2"
+                                    >Github</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Tag for First Row -->
+                <!-- End Tags for Formatting Below -->
+            </div>
         </div>
-      </div>
-      <div class="col p-3">
-        <div class="card"> <img src="static/img/lyft_bikes.jpg" class="card-img-top img-fluid" alt="bikes">
-          <div class="card-body">
-            <h5 class="card-title">Lyft Bay Wheels Ridership Analysis</h5>
-            <p class="card-text">For this Data Engineering class project, I conducted an analysis on Lyft Bay Wheels ridership and and utilized Google Cloud Platform and Big Query to provide recommendations to increase ridership.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item center">SQL, Google Cloud Platform, Google Big Query, Jupyter Notebook</li>
-          </ul>
-          <div class="card-body center">
-            <!--<a href="#" class="btn btn-fill-custom-wasabi-inverse mx-2">Report</a>-->
-            <a href="https://github.com/daphne-yang/data-science-portfolio/tree/main/Big_Data_Analytics_with_Google_Big_Query" class="btn btn-fill-custom-wasabi-inverse mx-2">Github</a> </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Tag for First Row --> 
-    <!-- End Tags for Formatting Below --> 
-  </div>
-</div>
-<!-- End Grid -->
-<hr>
-<footer class="small text-center text-muted">
-  <p class="copyright">Copyright &copy; 2021 | Daphne S Yang</p>
-</footer>
-</body>
+        <!-- End Grid -->
+        <hr />
+        <footer class="small text-center text-muted">
+            <p class="copyright">Copyright &copy; 2021 | Daphne S Yang</p>
+        </footer>
+    </body>
 </html>
